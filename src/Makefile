@@ -13,10 +13,10 @@ BIN=crelay
 
 # By default enable all drivers
 # To exclude a specific driver add DRV_<XYZ>=n to the make command
-DRV_CONRAD	= y
-DRV_SAINSMART	= y
+DRV_CONRAD	= n
+DRV_SAINSMART	= n
 DRV_SAINSMART16	= y
-DRV_HIDAPI	= y
+DRV_HIDAPI	= n
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
